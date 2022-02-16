@@ -1,0 +1,43 @@
+.homeDiv {
+  background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0645be79-d475-40e0-9f53-9336e3fe13b7/envited_landing_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220216T020556Z&X-Amz-Expires=86400&X-Amz-Signature=a5f1fcaa28d44340f9ca33f03b3138773f6eceb44a34814a6a59630cfca14e5c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Landing%2520page%2520background%2520gradient.png%22&x-id=GetObject");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template: 7vh auto 10vh 1fr / 1fr;
+  grid-gap: 5rem;
+  height: 100vh;
+}
+.home_eventBtn > img {
+  height: 8vh;
+}
+.home_navBar > img {
+  padding: 1.5rem 1rem;
+  width: 100vw;
+}
+.screens {
+  background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d696587-a049-4679-8158-23eb9c0d534a/Social_Media_icons.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220216T020648Z&X-Amz-Expires=86400&X-Amz-Signature=055ba5d48b3ff9f1a1e0b1eac9cfd885a0d083d9b04e24cf6da99aac0e1ba6c1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Social%2520Media%2520icons%2520%252F%2520all%2520grouped.png%22&x-id=GetObject");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+}
+.screens_scrn1 {
+  background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3439181c-ee6b-4c5b-b17c-fd94f760995d/Left.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220216T023044Z&X-Amz-Expires=86400&X-Amz-Signature=e6abab7c8dd1676f027dc0764b945e1c067baae39f6981b8d5160691d7a4aef7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Product%2520Image%2520%252F%2520Left.png%22&x-id=GetObject");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30vw;
+}
+.screens_scrn2 {
+  background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e851bcf9-0e0e-413d-bfa2-cf4700e62e94/Middle.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220216T023103Z&X-Amz-Expires=86400&X-Amz-Signature=426f95f99ef40a35f38d9873d5c61429a1943ccd7e2816def70200de234ba393&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Product%2520Image%2520%252F%2520Middle.png%22&x-id=GetObject");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35vw;
+}
+.screens_scrn3 {
+  background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1cbdd110-373a-4327-a214-98ce8c550b36/Right.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220216T023053Z&X-Amz-Expires=86400&X-Amz-Signature=a60ce7383ec5f857a5aab5fef002a047aebba886fc433debf9db11048afe111c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Product%2520Image%2520%252F%2520Right.png%22&x-id=GetObject");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30vw;
+}
